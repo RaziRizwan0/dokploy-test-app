@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3100;
 
 app.get("/", (req, res) => {
-  res.send("✅ Dokploy GitHub deploy works! with autodeploy yoo-yooo");
+  res.send("✅ okay its fine yeah!!");
 });
 
 app.listen(PORT, "0.0.0.0", () => {
